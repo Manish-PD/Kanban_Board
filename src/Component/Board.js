@@ -11,7 +11,7 @@ const tasks = [
 
 const taskStatus = {
     toDo: {
-        name: "To do",
+        name: "To Do",
         items: tasks
     },
     inProgress: {
@@ -151,6 +151,6 @@ function KanbanComponent() {
             </div>
         </div>
     );
-}
+};
 
 export default KanbanComponent;
